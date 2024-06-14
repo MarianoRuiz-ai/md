@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative; /* Asegura que el footer esté posicionado correctamente */
+    min-height: 100vh; /* Asegura que el cuerpo tenga al menos el alto de la ventana */
+}
+
+header {
+    background-color: #4145e7;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 10px; /* Centra el logo horizontalmente */
+    display: block; /* Para asegurar que el margen automático funcione correctamente */
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px; /* Ajusta el espaciado entre los elementos del menú */
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.articulos {
+    margin-top: 20px;
+}
+
+article {
+    float: left; /* Permite que los artículos se alineen horizontalmente */
+    width: calc(29% - 24px);
+    margin-right: 20px; /* Añade un margen a la derecha de cada artículo */
+    margin-bottom: 20px; /* Añade un margen inferior a cada artículo */
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+footer {
+    background-color: #4145e7;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed; /* Fija el footer en la parte inferior de la ventana */
+    width: 100%; /* Establece el ancho completo */
+    bottom: 0; /* Coloca el footer en la parte inferior */
+}
